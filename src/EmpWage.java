@@ -14,17 +14,12 @@ public class EmpWage {
             case 0:
                 System.out.println("Employee is Present");
                 System.out.println("Employee earn = " + numberOfHours * wagePerHour);
-                int totalHourPerMonth = 1;
-                while (totalHourPerMonth <= 100) {
-                    totalHourPerMonth++;
-                }
-                System.out.println("Employee earn in a month =" + totalHourPerMonth * wagePerHour);
+                System.out.println("Employee earn per Month =" + numberOfHours * wagePerHour * workingDayInAMonth);
                 break;
             case 1:
                 System.out.println("Employee is doing Part Time");
                 System.out.println("Employee earn = " + numberOfHoursForPartTime * wagePerHour);
-                System.out
-                        .println("Employee earn per Month =" + numberOfHoursForPartTime * wagePerHour * workingDayInAMonth);
+                System.out.println("Employee earn per Month =" + numberOfHoursForPartTime * wagePerHour * workingDayInAMonth);
 
                 break;
             case 2:
